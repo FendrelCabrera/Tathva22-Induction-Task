@@ -178,8 +178,8 @@ function nearby_places(pivot, type) {
                 var row = table.insertRow(row_no++);
                 var cell1 = row.insertCell(0);
                 var cell2 = row.insertCell(1);
-                cell1.innerHTML = "Place";
-                cell2.innerHTML = "Rating ⭐";
+                cell1.innerHTML = "<b>Place</b>";
+                cell2.innerHTML = "<b>Rating ⭐</b>";
                 var tag;
 
                 results.forEach(row_ins);
